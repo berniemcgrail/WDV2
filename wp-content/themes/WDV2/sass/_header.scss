@@ -1,0 +1,88 @@
+.top-bar {
+	background-color: $purple;
+	height: 40px;
+	width: 100%;
+	color: $white;
+	font-size: 14px;
+	padding-top: 10px;
+	img {
+		height: 20px;
+		width: 20px;
+		float: left;
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+	&-contact {
+		float: left;
+		p {
+			float: left;
+			margin: 0;
+			margin-top: -2px;
+		}
+		a {
+			margin-right: 30px;
+			color: $white;
+			&:hover {
+				color: rgba(255,255,255,0.6);
+			}
+		}
+	}
+	.social-icons {
+		float: right;
+		li {
+			float: left;
+			margin: 0 0 0 10px;
+			img {
+				margin: 0;
+			}
+		}
+	}
+}
+.hero {
+	position: relative;
+	height: 100%;
+	width: 100%; 
+	&-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-height: 850px;
+	}
+	.logo {
+		float: left;
+	}
+	&-text {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 250px;
+		height: 400px;
+		text-align: center;
+	}
+	h2 {
+		color: $white;
+		font-size: 60px;
+		text-transform: uppercase;
+		line-height: 80px;
+		padding: 0 60px;
+		text-shadow: 1px 1px 1px #666;
+		font-family: 'Champagne-bold';
+		margin-bottom: 70px;
+	}
+}
+nav {
+	float: right;
+	padding-top: 30px;
+	font-size: 24px;
+	text-transform: uppercase;
+	a {
+		color: $white;
+		&:hover {
+			color: rgba(255,255,255,0.6);
+		}
+	}
+	li {
+		float: left;
+		padding-left: 20px;
+	}
+}
