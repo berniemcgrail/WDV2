@@ -64,6 +64,7 @@ body{
     font-family: 'Champagne';
     line-height: 22px;
     letter-spacing: 2px;
+    font-size: 18px;
    
 }
 
@@ -100,11 +101,8 @@ body{
 
 
  @media only screen and (max-width:767px){
-    h2 {
-        font-size: 18px;
-    }
-    p {
-        font-size: 14px;
+    body {
+        font-size: 16px;
     }
  }
 

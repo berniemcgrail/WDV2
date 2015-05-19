@@ -9,7 +9,7 @@ $top-3: 16px;
     height: 100%;
     min-height: 70px;
     position: absolute;
-    top: 0px;
+    top: 40px;
     right: 0px;
     cursor: pointer;
 
@@ -25,6 +25,7 @@ $top-3: 16px;
         width: 22px;
         height: 3px;
         position: absolute;
+        background-color: $white;
         &-1 {
             top: $top-1;
         }
@@ -154,7 +155,7 @@ $top-3: 16px;
     }
 }
 
-@media only screen and (max-width:975px){
+@media only screen and (max-width:768px){
     .hamburger-container {
         display: block;
     }

@@ -1,11 +1,12 @@
 .features {
-	margin-top: 800px;
+	margin-top: 80px;
 	&-feature {
 		text-align: center;
 		width: (100%/3);
 		float: left;
 		margin-bottom: 80px;
 		padding: 0 20px;
+		min-height: 300px;
 		&-image {
 			height: 100px;
 			width: 100px;
@@ -18,7 +19,6 @@
 			margin-bottom: 20px;
 		}
 		&-text {
-			font-size: 18px;
 			margin-bottom: 40px;
 		}
 		&-link {
@@ -75,4 +75,41 @@
 		}
 	}
 
+}
+
+
+@media only screen and (max-width:768px){
+
+	.features-feature {
+		&-image {
+			height: 80px;
+			width: 80px;
+		}
+		&-title {
+			font-size: 20px;
+		}
+	}
+	.large-features-feature {
+		&-image {
+			width: 25%;
+		}
+		&-text {
+			width: 75%;
+			padding: 60px 0 40px 60px;
+			p {
+				font-size: 18px;
+				line-height: 22px;
+			}
+			h3 {
+				font-size: 30px;
+				margin-bottom: 30px;
+			}
+		}
+		&:nth-child(even) {
+			.large-features-feature-text {
+				padding-right: 60px;
+				padding-left: 10px;
+			}
+		}
+	}
 }

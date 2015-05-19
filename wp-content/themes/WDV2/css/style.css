@@ -14,7 +14,7 @@
   height: 100%;
   min-height: 70px;
   position: absolute;
-  top: 0px;
+  top: 40px;
   right: 0px;
   cursor: pointer; }
   .hamburger-container .hamburger {
@@ -26,7 +26,8 @@
   .hamburger-container .line {
     width: 22px;
     height: 3px;
-    position: absolute; }
+    position: absolute;
+    background-color: #fff; }
     .hamburger-container .line-1 {
       top: 0; }
     .hamburger-container .line-2 {
@@ -225,7 +226,7 @@
     top: 16px;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); } }
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 768px) {
   .hamburger-container {
     display: block; } }
 .cfx:after {
@@ -279,7 +280,8 @@ h1 {
 body {
   font-family: 'Champagne';
   line-height: 22px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-size: 18px; }
 
 .row {
   width: 100%;
@@ -309,11 +311,8 @@ body {
     color: rgba(255, 255, 255, 0.6); }
 
 @media only screen and (max-width: 767px) {
-  h2 {
-    font-size: 18px; }
-
-  p {
-    font-size: 14px; } }
+  body {
+    font-size: 16px; } }
 .top-bar {
   background-color: #7482a8;
   height: 40px;
@@ -347,8 +346,7 @@ body {
         margin: 0; }
 
 .hero {
-  position: relative;
-  height: 100%;
+  height: 700px;
   width: 100%; }
   .hero-image {
     position: absolute;
@@ -387,14 +385,46 @@ nav {
     float: left;
     padding-left: 20px; }
 
+@media only screen and (max-width: 920px) {
+  .hero h2 {
+    font-size: 45px;
+    line-height: 60px; } }
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    padding-top: 0; }
+    nav .menu {
+      text-align: center; }
+      nav .menu ul {
+        display: none;
+        width: 100%;
+        background-color: #2a2a2a;
+        padding: 40px; }
+        nav .menu ul li {
+          float: none;
+          margin-top: 20px;
+          width: 100%;
+          padding: 0 0 20px 0;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+  .hero {
+    height: 500px; }
+    .hero-text {
+      top: 150px; }
+    .hero h2 {
+      margin-bottom: 40px; } }
 .features {
-  margin-top: 800px; }
+  margin-top: 80px; }
   .features-feature {
     text-align: center;
     width: 33.3333333333%;
     float: left;
     margin-bottom: 80px;
-    padding: 0 20px; }
+    padding: 0 20px;
+    min-height: 300px; }
     .features-feature-image {
       height: 100px;
       width: 100px;
@@ -405,7 +435,6 @@ nav {
       font-size: 24px;
       margin-bottom: 20px; }
     .features-feature-text {
-      font-size: 18px;
       margin-bottom: 40px; }
     .features-feature-link {
       color: #fff;
@@ -446,3 +475,25 @@ nav {
       font-size: 36px;
       text-transform: uppercase;
       margin-bottom: 40px; }
+
+@media only screen and (max-width: 768px) {
+  .features-feature-image {
+    height: 80px;
+    width: 80px; }
+  .features-feature-title {
+    font-size: 20px; }
+
+  .large-features-feature-image {
+    width: 25%; }
+  .large-features-feature-text {
+    width: 75%;
+    padding: 60px 0 40px 60px; }
+    .large-features-feature-text p {
+      font-size: 18px;
+      line-height: 22px; }
+    .large-features-feature-text h3 {
+      font-size: 30px;
+      margin-bottom: 30px; }
+  .large-features-feature:nth-child(even) .large-features-feature-text {
+    padding-right: 60px;
+    padding-left: 10px; } }

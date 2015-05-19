@@ -43,8 +43,7 @@
                             
                 </div>
             </div>
-                <div class="hero">
-                    <img class="hero-image" src="<?php echo get_template_directory_uri(); ?>/img/bedroom.jpg" alt="">
+                <div class="hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/bedroom.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
                     <div class="row cfx">
                         <h1 class="logo">We do B&B</h1>
                         <div class="hero-text">
