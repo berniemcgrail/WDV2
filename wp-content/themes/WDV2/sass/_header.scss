@@ -89,6 +89,22 @@ nav {
 	.current_page_item {
 		border-bottom: solid 1px rgba(255,255,255,0.6);
 	}
+	.social-icons {
+		&.mobile {
+			display: none;
+			position: absolute;
+  			bottom: 30px;
+  			left: 50%;
+  			margin-left: -95px;
+  			li {
+  				margin-left: 30px;
+  			}
+		}
+		img {
+			height: 20px;
+			width: 20px;
+		}
+	}
 }
 
 @media only screen and (max-width:920px){
@@ -115,10 +131,11 @@ nav {
 				display: none;
 				width: 100%;
 				background-color: $grey;
-				padding: 40px;
+				padding: 40px 40px 100px;
 				li {
 					float: none;
 					margin-top: 20px;
+					margin-left: 0;
 					width: 100%;
 					padding: 0 0 20px 0;
 					border-bottom: 1px solid rgba(255,255,255,0.5);
@@ -139,7 +156,7 @@ nav {
 }
 
 @media only screen and (max-width:550px){
-	.top-bar-contact {
+	.top-bar {
 		display: none;
 	}
 	.logo {

@@ -119,6 +119,22 @@ get_header();
 	</div>
 </section>
 
+<section class="pricing">
+	<div class="row">
+		<h3>Pricing & Packages</h3>
+		<div class="pricing-package">
+			<p class="pricing-package-title"></p>
+			<p class="pricing-package-price"></p>
+			<ul class="pricing-package-list">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<a href="#" class="pricing-package-button"></a>
+		</div>
+	</div>
+</section>
+
 
 <?php
 get_footer();

@@ -65,6 +65,11 @@
 
                     <?php wp_nav_menu( array( 'menu' => 'menu','sort_column' => 'menu_order', 'container_class' => 'nav' ) ); ?>
                             </div>
+                            <ul class="social-icons mobile">
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" alt="twitter"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/google.svg" alt="google"></a></li>
+                    </ul>
 
                         </nav>
                     </div>
