@@ -82,6 +82,126 @@
 	}
 }
 
+.pricing {
+	background-color: $grey;
+	color: $white;
+	text-align: center;
+	padding-bottom: 80px;
+	h3 {
+		text-align: center;
+		font-size: 36px;
+		padding: 80px 0;
+	}
+	&-package {
+		width: (100%/3);
+		float: left;
+		padding: 0 20px;
+		&-title {
+			text-transform: uppercase;
+			background-color: $dark-purple;
+			padding: 20px 0;
+			font-size: 24px;
+		}
+		&-price {
+			background-color: $purple;
+			font-size: 48px;
+			padding: 20px 0 25px 0;
+			span {
+				vertical-align: super;
+				font-size: 20px; 
+			}
+		}
+		&-list {
+			background-color: $white;
+			padding: 20px 0;
+			color: $grey;
+			li {
+				padding: 10px 0;
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+			.pricing-package-button {
+				padding: 10px;
+	    		border-radius: 3px;
+	    		border: 1px solid $grey ;
+	    		margin: 25px auto 20px auto;
+	    		display: inline-block;
+	    		color: $grey;
+	    		font-size: 24px;
+	    		text-transform: uppercase;
+			    &:hover {
+			        color: rgba(0,0,0,0.6);
+			    }
+			}
+		}
+	}
+}
+
+.ajax-loader {
+	display: none;
+}
+
+.contact {
+	margin: 80px 0;
+	&-form {
+		width: (100%/3)*2;
+		float: left;
+		padding-right: 60px;
+		input {
+			border: none;
+			border-bottom: 1px solid $dark-purple;
+			width: 100%;
+			margin: 20px 0;
+			font-family: 'Champagne';
+			color: $dark-purple;
+			font-size: 30px;
+			text-transform: uppercase;
+			padding: 0px 0 5px 10px;
+			&.wpcf7-submit {
+				width: 45% !important;
+				border: 1px solid $dark-purple;
+				background-color: $white;
+				margin-top: 40px;
+				&:hover {
+					color: $purple;
+				}
+			}
+		}
+		textarea {
+			border: 1px solid $dark-purple;
+			width: 100%;
+			resize: none;
+			font-size: 30px;
+			text-transform: uppercase;
+			font-weight: 100;
+			font-family: 'Champagne';
+			padding: 10px 0 0 10px;
+			margin-top: 40px;
+		}
+		textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    		border-color: $purple;
+    		box-shadow: 0 1px 1px $purple inset, 0 0 8px $purple;
+   			outline: 0 none;
+		}
+		textarea::-webkit-input-placeholder {  
+			color: $purple;
+		}
+		input::-webkit-input-placeholder {  color: $purple;}
+	}
+	&-text {
+		width: (100%/3);
+		float: right;
+		text-align: center;
+		margin-top: 20px;
+		color: $dark-purple;
+		h3 {
+			font-size: 30px;
+			margin-bottom: 40px;
+			text-transform: uppercase;
+		}
+	}
+}
+
 
 @media only screen and (max-width:768px){
 
@@ -123,6 +243,21 @@
 				padding-left: 10px;
 			}
 		}
+	}
+	.contact {
+		&-text {
+			width: 100%;
+			font-size: 24px;
+			padding: 0 40px;
+		}
+		&-form {
+			width: 100%;
+			padding: 0 40px;
+			margin-top: 40px;
+		}
+	}
+	.pricing-package {
+		padding: 0 10px;
 	}
 }
 
@@ -170,6 +305,11 @@
 
 
 
-
+@media only screen and (max-width:620px){
+	.pricing-package {
+		width: 100%;
+		margin: 20px 0;
+	}
+}
 
 

@@ -1,18 +1,33 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
 
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
+			<footer class="footer">
+			<div class="row cfx">
+				<ul class="social-icons">
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" alt="twitter"></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/google.svg" alt="google"></a></li>
+                </ul>
+                <div class="contact-info">
+                	<img src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.svg" alt="phone">
+                	<p><a href="tel:01234567890">01234 567 890</a></p>
+                </div>
+                <div class="contact-info">
+                	<img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.svg" alt="phone">
+                	<p>15a beaufort rd, bristol, bs8 2ju</p>
+                </div>
+                <div class="contact-info">
+                	<img src="<?php echo get_template_directory_uri(); ?>/img/icons/at.svg" alt="phone">
+                	<p><a href="mailto:hello@wedovoodoo.co">hello@wedovoodoo.co</a></p>
+                </div>
+                <p class="copyright">
+					&copy; We do Voodoo 2015
+                </p>
+			</div>
+
+
 
 			</footer>
-			<!-- /footer -->
 
-		</div>
-		<!-- /wrapper -->
+
 
 		<?php wp_footer(); ?>
 

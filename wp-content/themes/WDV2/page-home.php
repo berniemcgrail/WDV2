@@ -120,20 +120,57 @@ get_header();
 </section>
 
 <section class="pricing">
-	<div class="row">
+	<div class="row cfx">
 		<h3>Pricing & Packages</h3>
 		<div class="pricing-package">
-			<p class="pricing-package-title"></p>
-			<p class="pricing-package-price"></p>
+			<p class="pricing-package-title">Basic</p>
+			<p class="pricing-package-price"><span>£</span>499</p>
 			<ul class="pricing-package-list">
-				<li></li>
-				<li></li>
-				<li></li>
+				<li>Design</li>
+				<li>Build</li>
+				<li>Support</li>
+				<li>Booking system</li>
+				<a href="#" class="pricing-package-button">Buy Now</a>
+			</ul>	
+		</div>
+		<div class="pricing-package">
+			<p class="pricing-package-title">Basic</p>
+			<p class="pricing-package-price"><span>£</span>499</p>
+			<ul class="pricing-package-list">
+				<li>Design</li>
+				<li>Build</li>
+				<li>Support</li>
+				<li>Booking system</li>
+				<a href="#" class="pricing-package-button">Buy Now</a>
 			</ul>
-			<a href="#" class="pricing-package-button"></a>
+		</div>
+		<div class="pricing-package">
+			<p class="pricing-package-title">Basic</p>
+			<p class="pricing-package-price"><span>£</span>499</p>
+			<ul class="pricing-package-list">
+				<li>Design</li>
+				<li>Build</li>
+				<li>Support</li>
+				<li>Booking system</li>
+				<a href="#" class="pricing-package-button">Buy Now</a>
+			</ul>
+		</div>
+	</div>
+
+</section>
+<section class="contact">
+	<div class="row cfx">
+		<div class="contact-text">
+			<h3>Contact Us</h3>
+			<p>Email, call or send us a message and we’ll get back to you right away.</p>
+		</div>
+		<div class="contact-form">
+			<?php echo do_shortcode('[contact-form-7 id="11" title="Contact form 1"]'); ?>
 		</div>
 	</div>
 </section>
+
+
 
 
 <?php
