@@ -14,7 +14,10 @@
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
 
-        <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/lib/modernizr.js"></script>
+
+        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexslider.js"></script>
 
 
         <?php wp_head(); ?>
@@ -43,39 +46,5 @@
                             
                 </div>
             </div>
-                <div class="hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/bedroom.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
-                    <div class="row cfx">
-                        <h1 class="logo">We do B&B</h1>
-                        <div class="hero-text">
-                            <h2>Introducing a new service for bed & breakfasts</h2>
-                        <a href="#" class="button">Learn More</a>
-                        </div>
-                        
-                        <nav class="cfx">
-
-                            <div class="hamburger-container">
-                                <div class="hamburger">
-                                    <div class="line line-1"></div>
-                                    <div class="line line-2"></div>
-                                    <div class="line line-3"></div>
-                                </div>
-                            </div>
-
-                            <div class="nav-container">
-
-                    <?php wp_nav_menu( array( 'menu' => 'menu','sort_column' => 'menu_order', 'container_class' => 'nav' ) ); ?>
-                            </div>
-                            <ul class="social-icons mobile">
-                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" alt="facebook"></a></li>
-                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" alt="twitter"></a></li>
-                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/google.svg" alt="google"></a></li>
-                    </ul>
-
-                        </nav>
-                    </div>
-                    
-                </div>
-
-            
 
             </header>

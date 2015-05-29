@@ -1,0 +1,79 @@
+.pricing {
+	background-color: $purple;
+	color: $white;
+	text-align: center;
+	padding-bottom: 80px;
+	h3 {
+		text-align: center;
+		font-size: 36px;
+		padding: 80px 0;
+		line-height: 40px;
+	}
+	&-package {
+		width: (100%/3);
+		float: left;
+		padding: 0 20px;
+		&-title {
+			text-transform: uppercase;
+			background-color: $dark-purple;
+			padding: 20px 0;
+			font-size: 24px;
+		}
+		&-price {
+			background-color: $grey;
+			font-size: 48px;
+			padding: 20px 0 25px 0;
+			span {
+				vertical-align: super;
+				font-size: 20px; 
+			}
+		}
+		&-list {
+			background-color: $white;
+			padding: 20px 0;
+			color: $grey;
+			li {
+				padding: 10px 0;
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+			.pricing-package-button {
+				padding: 10px;
+	    		border-radius: 3px;
+	    		border: 1px solid $grey ;
+	    		margin: 25px auto 20px auto;
+	    		display: inline-block;
+	    		color: $grey;
+	    		font-size: 24px;
+	    		text-transform: uppercase;
+	    		transition: all 800ms linear;
+			    &:hover {
+			        color: $white;
+			        background-color: $dark-purple;
+			        border-color: $dark-purple;
+			    }
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:768px){
+	.pricing-package {
+		padding: 0 10px;
+	}
+}
+
+@media only screen and (max-width:620px){
+	.pricing-package {
+		width: 100%;
+		margin: 20px 0;
+	}
+}
+
+@media only screen and (max-width:400px){
+.pricing {
+		h3 {
+			padding: 30px 0 20px 0;
+		}
+	}
+}

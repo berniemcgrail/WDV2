@@ -39,37 +39,7 @@
 	}
 }
 
-.hero { 
-	height: 700px;
-	width: 100%;
-	&-image {
-		position: absolute;
-		top: 0;
-		left: 0;
-		max-height: 850px;
-	}
-	.logo {
-		float: left;
-	}
-	&-text {
-		position: absolute;
-		width: 100%;
-		left: 0;
-		top: 250px;
-		height: 400px;
-		text-align: center;
-	}
-	h2 {
-		color: $white;
-		font-size: 60px;
-		text-transform: uppercase;
-		line-height: 80px;
-		padding: 0 60px;
-		text-shadow: 1px 1px 1px #666;
-		font-family: 'Champagne-bold';
-		margin-bottom: 70px;
-	}
-}
+
 nav {
 	float: right;
 	padding-top: 30px;
@@ -78,17 +48,22 @@ nav {
 	a {
 		color: $white;
 		display: block;
+		padding-bottom: 10px;
+		transition: all 500ms fade-in-fade-out;
 		&:hover {
 			color: rgba(255,255,255,0.6);
+			border-bottom: solid 1px rgba(255,255,255,0.6);
 		}
 	}
 	li {
 		float: left;
 		margin-left: 20px;
-		padding-bottom: 10px;
 	}
 	.current_page_item {
 		border-bottom: solid 1px rgba(255,255,255,0.6);
+		&:hover {
+			border-bottom: none;
+		}
 	}
 	.social-icons {
 		&.mobile {
@@ -122,27 +97,26 @@ nav {
 	.top-bar {
 		display: none;
 	}
-	nav {
+	.nav {
 		width: 100%;
 		position: absolute;
   		top: 0px;
   		left: 0;
   		padding-top: 0;
+			
 		.menu {
+			display: none;
+			width: 100%;
+			background-color: $grey;
+			padding: 40px 40px 100px;
 			text-align: center;
-			ul {
-				display: none;
+			li {
+				float: none;
+				margin-top: 20px;
+				margin-left: 0;
 				width: 100%;
-				background-color: $grey;
-				padding: 40px 40px 100px;
-				li {
-					float: none;
-					margin-top: 20px;
-					margin-left: 0;
-					width: 100%;
-					padding: 0 0 20px 0;
-					border-bottom: 1px solid rgba(255,255,255,0.5);
-				}
+				padding: 0 0 20px 0;
+				border-bottom: 1px solid rgba(255,255,255,0.5);
 			}
 		}
 	}
@@ -161,12 +135,12 @@ nav {
 @media only screen and (max-width:550px){
 	
 	.logo {
-		font-size: 30px;
+		font-size: 26px;
 	}
 	.hero {
 		height: 300px;
 		h2 {
-			font-size: 30px;
+			font-size: 24px;
   			line-height: 40px;
   			margin-bottom: 20px;
 		}
@@ -176,4 +150,9 @@ nav {
 	}
 }
 
+@media only screen and (max-width:350px){
 
+	.hero {
+		height: 350px;
+	}
+}

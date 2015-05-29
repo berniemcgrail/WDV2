@@ -1,6 +1,7 @@
 
 
 //------------------- Global --------------------//
+
 .cfx:after{
     visibility: hidden;
     display: block;
@@ -94,8 +95,12 @@ body{
     color: $white;
     font-size: 36px;
     text-transform: uppercase;
+    transition: all 800ms linear;
+    
     &:hover {
-        color: rgba(255,255,255,0.6);
+        background-color: rgba(255,255,255,0.6);
+        color: $dark-purple;
+        border-color: $white;
     }
 }
 

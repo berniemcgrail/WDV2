@@ -1,0 +1,37 @@
+.hero { 
+	height: 700px;
+	width: 100%;
+	&-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-height: 850px;
+	}
+	.logo {
+		float: left;
+	}
+	&-text {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 250px;
+		height: 400px;
+		text-align: center;
+	}
+	h2 {
+		color: $white;
+		font-size: 60px;
+		text-transform: uppercase;
+		line-height: 80px;
+		padding: 0 60px;
+		text-shadow: 1px 1px 1px #666;
+		font-family: 'Champagne-bold';
+		margin-bottom: 70px;
+	}
+	&.pricing {
+	height: 400px;
+	.hero-text {
+		top: 180px;
+	}
+}
+}

@@ -1,0 +1,37 @@
+.pricing-table {
+	text-align: center;
+	&-container {
+		display: table;
+		border-top: 1px solid $grey;
+		border-left: 1px solid $grey;
+		width: 100%;
+	}
+	.table-row {
+		display: table-row;
+		font-weight: 800;
+		img {
+			height: 20px;
+			width: 20px;
+			margin: 0 auto;
+		}
+		&>div {
+			display: table-cell;
+			vertical-align: middle;
+			border-bottom: 1px solid $grey;
+			border-right: 1px solid $grey;
+			padding: 20px 10px;
+		}
+		.red {
+			color: $red;
+		}
+		.orange {
+			color: $orange;
+		}
+		.yellow {
+			color: $yellow;
+		}
+	}
+	h2 {
+		margin: 80px 0 40px 0;
+	}
+}
