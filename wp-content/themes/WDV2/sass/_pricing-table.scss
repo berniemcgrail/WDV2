@@ -21,6 +21,17 @@
 			border-right: 1px solid $grey;
 			padding: 20px 10px;
 		}
+		&:nth-child(odd) {
+				background-color: rgba(0,0,0,0.05);
+			}
+		&.titles {
+			background-color: $dark-purple;
+			text-transform: uppercase;
+			font-size: 20px;
+			&>div {
+				color: #fff;
+			}
+		}
 		.red {
 			color: $red;
 		}
@@ -33,5 +44,33 @@
 	}
 	h2 {
 		margin: 80px 0 40px 0;
+		font-size: 34px;
 	}
 }
+
+@media only screen and (max-width:768px){
+	
+	.pricing-table .table-row.titles {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:500px){
+	.pricing-table {
+		font-size: 13px;
+		.row {
+			padding: 0 10px;
+		}
+		.table-row > div {
+			padding: 10px 5px;
+		}
+		h2 {
+			font-size: 28px;
+		}
+	}
+	.pricing-table .table-row.titles {
+		font-size: 15px;
+	}
+}
+
+

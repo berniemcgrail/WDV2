@@ -60,6 +60,30 @@
 			text-transform: uppercase;
 		}
 	}
+	&.light {
+		background-color: $grey;
+		padding: 60px 0;
+		margin: 80px 0 0 0;
+		.contact-text {
+			color: $white;
+		}
+		input, textarea {
+			border-color: $white;
+			color: $white;
+			background-color: $grey;
+			&.wpcf7-submit {
+				background-color: $white;
+				color: $grey;
+				&:hover {
+					background-color: rgba(255,255,255,0.6);
+				}
+			}
+		}
+		textarea::-webkit-input-placeholder {  
+			color: $white;
+		}
+		input::-webkit-input-placeholder {  color: $white;}
+	}
 }
 .ajax-loader {
 	display: none;
@@ -75,8 +99,35 @@
 		}
 		&-form {
 			width: 100%;
-			padding: 0 40px;
+			padding: 0 20px;
 			margin-top: 40px;
 		}
 	}
 }
+
+@media only screen and (max-width:550px){
+	.contact {
+		&-text {
+			padding: 0 10px;
+		}
+		&-form {
+			padding: 0 10px;
+		}
+	}
+}
+
+@media only screen and (max-width:350px){
+	.contact {
+		&-text {
+			padding: 0px;
+		}
+		&-form {
+			padding: 0px;
+		}
+	}
+}
+
+
+
+
+

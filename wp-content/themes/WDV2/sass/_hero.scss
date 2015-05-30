@@ -29,9 +29,76 @@
 		margin-bottom: 70px;
 	}
 	&.pricing {
-	height: 400px;
-	.hero-text {
-		top: 180px;
+		height: 400px;
+		.hero-text {
+			top: 180px;
+		}
 	}
 }
+
+@media only screen and (max-width:920px){
+	.hero {
+		h2 {
+			font-size: 45px;
+			line-height: 60px;
+		}
+		
+	}
+
 }
+
+
+@media only screen and (max-width:768px){
+
+	.hero {
+		height: 500px;
+		&.pricing {
+			height: 500px;
+			.hero-text {
+				top: 210px;
+			}
+		}
+		&-text {
+			top: 150px;
+		}
+		h2 {
+			margin-bottom: 40px;
+		}
+	}
+}
+
+@media only screen and (max-width:550px){
+	.hero {
+		height: 300px;
+		&.pricing {
+			height: 300px;
+			.hero-text {
+				top: 130px;
+			}
+		}
+		h2 {
+			font-size: 24px!important;
+  			line-height: 40px;
+  			margin-bottom: 20px;
+		}
+		&-text {
+			top: 90px;
+		}
+	}
+}
+
+@media only screen and (max-width:350px){
+
+	.hero {
+		height: 350px;
+		&.pricing {
+			height: 350px;
+			h2 {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+
+
+

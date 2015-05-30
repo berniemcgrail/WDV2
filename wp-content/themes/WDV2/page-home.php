@@ -158,60 +158,60 @@ get_header();
 		<div class="flexslider">
 		  <ul class="slides">
 		    <li>
+		    <div class="slides-text">
+		      	<h3>Feature Links</h3>
+		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
+		      </div>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-logo.png" />
-		      <div class="slides-text">
+		    </li>
+		    <li>
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
-		    </li>
-		    <li>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-offers.png" />
-		      <div class="slides-text">
+		    </li>
+		    <li>
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
-		    </li>
-		    <li>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-rates.png" />
-		      <div class="slides-text">
+		    </li>
+		    <li>
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
-		    </li>
-		    <li>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-reservation.png" />
-		      <div class="slides-text">
+		    </li>
+		    <li>
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
-		    </li>
-		    <li>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-feature-link.png" />
-		      <div class="slides-text">
+		    </li>
+		    <li>
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
-		    </li>
-		    <li>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-awards.png" />
-		      <div class="slides-text">
+		    </li>
+		    <li>
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
-		    </li>
-		    <li>
 		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-social.png" />
-		      <div class="slides-text">
-		      	<h3>Feature Links</h3>
-		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
-		      </div>
 		    </li>
 		    <li>
-		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-newsletter.png" />
-		      <div class="slides-text">
+		    <div class="slides-text">
 		      	<h3>Feature Links</h3>
 		    	<p>Large easy to use links to other key areas of your website. The images can be yours, or beautiful images selected with us.</p>
 		      </div>
+		      <img class="slides-image" src="<?php echo get_template_directory_uri(); ?>/img/slide-newsletter.png" />
 		    </li>
 		  </ul>
 		</div>
@@ -227,35 +227,36 @@ get_header();
 		<h3>Pricing & Packages</h3>
 		<div class="pricing-package">
 			<p class="pricing-package-title">Basic</p>
-			<p class="pricing-package-price"><span>£</span>499</p>
+			<p class="pricing-package-price"><span>£</span>399</p>
 			<ul class="pricing-package-list">
-				<li>Design</li>
-				<li>Build</li>
+				<li>Choice of designs</li>
+				<li>Mobile compatible</li>
 				<li>Support</li>
-				<li>Booking system</li>
-				<a href="#" class="pricing-package-button">Buy Now</a>
+				<li></li>
+				<a href="#" class="pricing-package-button">Compare</a>
 			</ul>	
 		</div>
 		<div class="pricing-package">
 			<p class="pricing-package-title">Basic</p>
-			<p class="pricing-package-price"><span>£</span>499</p>
+			<p class="pricing-package-price"><span>£</span>599</p>
 			<ul class="pricing-package-list">
-				<li>Design</li>
-				<li>Build</li>
+				<li>Choice of designs</li>
+				<li>Mobile compatible</li>
 				<li>Support</li>
 				<li>Booking system</li>
-				<a href="#" class="pricing-package-button">Buy Now</a>
+				<a href="#" class="pricing-package-button">Compare</a>
 			</ul>
 		</div>
 		<div class="pricing-package">
 			<p class="pricing-package-title">Basic</p>
-			<p class="pricing-package-price"><span>£</span>499</p>
+			<p class="pricing-package-price"><span>£</span>799</p>
 			<ul class="pricing-package-list">
-				<li>Design</li>
-				<li>Build</li>
+				<li>Choice of designs</li>
+				<li>Mobile compatible</li>
 				<li>Support</li>
 				<li>Booking system</li>
-				<a href="#" class="pricing-package-button">Buy Now</a>
+				<li>Payment system</li>
+				<a href="#" class="pricing-package-button">Compare</a>
 			</ul>
 		</div>
 	</div>

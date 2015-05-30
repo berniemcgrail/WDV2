@@ -69,7 +69,7 @@ nav {
 		&.mobile {
 			display: none;
 			position: absolute;
-  			bottom: 30px;
+  			bottom: -10px;
   			left: 50%;
   			margin-left: -95px;
   			li {
@@ -83,15 +83,6 @@ nav {
 	}
 }
 
-@media only screen and (max-width:920px){
-	.hero {
-		h2 {
-			font-size: 45px;
-			line-height: 60px;
-		}
-	}
-
-}
 
 @media only screen and (max-width:768px){
 	.top-bar {
@@ -108,7 +99,7 @@ nav {
 			display: none;
 			width: 100%;
 			background-color: $grey;
-			padding: 40px 40px 100px;
+			padding: 80px 40px 100px;
 			text-align: center;
 			li {
 				float: none;
@@ -120,16 +111,6 @@ nav {
 			}
 		}
 	}
-	.hero {
-		height: 500px;
-		&-text {
-			top: 150px;
-		}
-		h2 {
-			margin-bottom: 40px;
-		}
-	}
-
 }
 
 @media only screen and (max-width:550px){
@@ -137,22 +118,6 @@ nav {
 	.logo {
 		font-size: 26px;
 	}
-	.hero {
-		height: 300px;
-		h2 {
-			font-size: 24px;
-  			line-height: 40px;
-  			margin-bottom: 20px;
-		}
-		&-text {
-			top: 90px;
-		}
-	}
 }
 
-@media only screen and (max-width:350px){
 
-	.hero {
-		height: 350px;
-	}
-}
